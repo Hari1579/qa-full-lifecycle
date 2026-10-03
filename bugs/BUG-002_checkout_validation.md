@@ -4,7 +4,7 @@
 
 **Title:** Checkout displays only First Name validation when all required fields are empty
 
-**Severity / Priority:** Medium/ Medium · **Environment:** Chrome, Windows
+**Severity / Priority:** Medium / Medium · **Environment:** Google Chrome 153.0.8010.53 (64-bit), Windows
 
 **Affected requirement(s):** REQ-4.2, SHOP-214, TC-16
 
@@ -22,7 +22,7 @@
 
 **Actual result:** User remains on the Checkout Information page. All three fields are marked invalid, but only the message **"Error: First Name is required"** is displayed. Repeating the action produces the same result.
 
-**Evidence:** Screenshot captured during TC-16 execution showing all three fields marked invalid and the First Name validation message.
+**Evidence:** `BUG-002_checkout_validation.png` — Screenshot captured during TC-16 execution showing all three fields marked invalid and the First Name validation message.
 
 **Status:** Open
 
