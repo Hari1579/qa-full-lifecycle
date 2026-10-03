@@ -127,3 +127,15 @@
   and was then ignored would produce, and that is a different defect. This is the
   defect recorded as BUG-001, and it is asserted rather than skipped so the suite
   reports it the day SauceDemo fixes it.
+
+### TC-16 — All checkout fields empty blocks checkout
+- **Ref:** REQ-4.2 / SHOP-214
+- **Preconditions:** User is logged in as `standard_user` and has at least one item in the cart.
+- **Steps:**
+  1. Open the cart.
+  2. Click **Checkout**.
+  3. Leave First Name blank.
+  4. Leave Last Name blank.
+  5. Leave Postal Code blank.
+  6. Click **Continue**.
+- **Expected:** User remains on the Checkout Information page and validation messages are displayed for all three required fields.
