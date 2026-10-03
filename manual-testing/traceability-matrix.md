@@ -17,7 +17,7 @@ reporting them as a single number hides which requirements are actually protecte
 | REQ-3.2 Remove from cart | TC-08 | `ui-automation/tests/cart.spec.ts` — empties the cart / decrements the badge |
 | REQ-3.3 Checkout reachable from cart | TC-09 | `ui-automation/tests/checkout.spec.ts` — happy path purchase |
 | REQ-4.1 Enter name + postal code | TC-10 | `ui-automation/tests/checkout.spec.ts` — happy path purchase |
-| REQ-4.2 Missing fields block checkout | TC-11, TC-12, TC-13 | partial — `checkout.spec.ts` covers the empty first name (TC-11); TC-12 and TC-13 are manual only |
+| REQ-4.2 Missing fields block checkout | TC-11, TC-12, TC-13, TC-16 | partial — `checkout.spec.ts` covers the empty first name (TC-11); TC-12 and TC-13 are manual only |
 | REQ-4.3 Overview shows correct items + totals | TC-10 | `ui-automation/tests/checkout.spec.ts` — asserts the item is listed, the subtotal matches the listed prices, and subtotal + tax == total |
 | REQ-4.4 Success confirmation | TC-10 | `ui-automation/tests/checkout.spec.ts` — "Thank you for your order!" |
 | REQ-4.5 Cart cleared after purchase | TC-10 | `ui-automation/tests/checkout.spec.ts` — badge gone after Finish |
