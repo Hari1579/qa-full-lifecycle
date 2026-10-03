@@ -4,7 +4,7 @@
 
 **Title:** Checkout displays only First Name validation when all required fields are empty
 
-**Severity / Priority:** Major / High · **Environment:** Chrome, Windows
+**Severity / Priority:** Medium/ Medium · **Environment:** Chrome, Windows
 
 **Affected requirement(s):** REQ-4.2, SHOP-214, TC-16
 
